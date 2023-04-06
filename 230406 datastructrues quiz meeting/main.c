@@ -31,7 +31,8 @@ int enqueue(int x)
 {
     
     data[rear] = x;
-    rear = (rear + 1)
+    rear = (rear + 1) % MAX_QUEUE_SIZE;
+    return 
 }
 
 int main(int argc, const char * argv[]) {

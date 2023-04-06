@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A48891B929DF0F660014A294 /* queue.c in Sources */ = {isa = PBXBuildFile; fileRef = A48891B829DF0F660014A294 /* queue.c */; };
 		A4BB6EA529DE9423007B4902 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A4BB6EA429DE9423007B4902 /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A48891B729DF0F660014A294 /* queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
+		A48891B829DF0F660014A294 /* queue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = queue.c; sourceTree = "<group>"; };
 		A4BB6EA129DE9423007B4902 /* 230406 datastructrues quiz meeting */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "230406 datastructrues quiz meeting"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4BB6EA429DE9423007B4902 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,6 +60,8 @@
 		A4BB6EA329DE9423007B4902 /* 230406 datastructrues quiz meeting */ = {
 			isa = PBXGroup;
 			children = (
+				A48891B729DF0F660014A294 /* queue.h */,
+				A48891B829DF0F660014A294 /* queue.c */,
 				A4BB6EA429DE9423007B4902 /* main.c */,
 			);
 			path = "230406 datastructrues quiz meeting";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A48891B929DF0F660014A294 /* queue.c in Sources */,
 				A4BB6EA529DE9423007B4902 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

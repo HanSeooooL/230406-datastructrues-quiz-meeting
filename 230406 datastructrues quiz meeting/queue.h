@@ -20,3 +20,4 @@ int is_empty(void);
 int is_full(void);
 void enqueue(int x);
 int dequeue(void);
+void print_queue(void);

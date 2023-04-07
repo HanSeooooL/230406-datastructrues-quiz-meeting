@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A48891B929DF0F660014A294 /* queue.c in Sources */ = {isa = PBXBuildFile; fileRef = A48891B829DF0F660014A294 /* queue.c */; };
 		A4BB6EA529DE9423007B4902 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A4BB6EA429DE9423007B4902 /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -124,7 +123,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A48891B929DF0F660014A294 /* queue.c in Sources */,
 				A4BB6EA529DE9423007B4902 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,6 +245,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 486W4DJTAB;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -257,6 +258,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 486W4DJTAB;
 				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_TESTABILITY = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

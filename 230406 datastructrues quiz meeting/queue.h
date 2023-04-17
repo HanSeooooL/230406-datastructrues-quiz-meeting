@@ -8,7 +8,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef int Element;
+
+typedef struct person {
+    int gender;
+    char name;
+} Element;
 #define MAX_QUEUE_SIZE 100
 int front, rear;
 Element data[MAX_QUEUE_SIZE] = { 0 };
